@@ -22,10 +22,9 @@
 	color: #F05F31 !important;
 	font-size: 1.25rem;
 }
-.contenidoPrincipaL{
+.contenidoFullscreen{
 	background: url(../imagenes/fullscreen3.jpg);
 	height: 100%;
-	top: 0;
 	z-index: 1000;
 
 	
@@ -60,6 +59,14 @@
 	border-radius: 44px;
 	border: 2px solid #F05F31;
 }
+.contenidoContacto{
+	margin-top: 100px;
+}
+.tituloContacto{
+	text-align: center;
+}
+
+
 .pieDeContacto {
 	border-radius: 50px;
 	background-color: #dfe1ac6e !important;
