@@ -1,4 +1,74 @@
 .contenidoNav{ 
-	background-color: #dfe386;
+	background-color: #dfe1ac6e;
+	position: fixed;
+	top: 0;	
+	z-index: 1;
+	border-radius: 50px;
 
 }
+.navbar-brand img{
+	border-radius: 50px;
+
+	transition: all 250ms ease-in-out;
+}
+.dropdownColorsito{
+	background-color: #dfe1ac6e ;
+}
+.navbar-brand img:hover{
+	transform: scale(1.1);		
+	border-radius: 44px;
+}
+.textoColorsito{
+	color: #F05F31 !important;
+	font-size: 1.25rem;
+}
+.contenidoPrincipaL{
+	background: url(../imagenes/fullscreen3.jpg);
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+
+	
+}
+.contenidoTitulo {
+	margin-top: 150px;
+	
+
+}
+.contenidoTitulo h1{
+	font-size: 2.25rem;
+	background-color: #F05F31 ;
+	color: #fff;
+
+}
+.contenidoAnimalesHome{
+	margin-top: 100px;
+
+}
+.contenidoAnimalesHome__imagen{
+	transition: all 250ms ease-in-out;
+	margin-top: 40px;
+
+}
+.contenidoAnimalesHome__imagen img{
+	height: 400px;
+	margin: 55px;
+
+}
+.contenidoAnimalesHome__imagen img:hover{
+	transform: scale(1.1);		
+	border-radius: 44px;
+	border: 2px solid #F05F31;
+}
+.pieDeContacto {
+	border-radius: 50px;
+	background-color: #dfe1ac6e !important;
+
+}
+.pieDeContacto ul li{
+	list-style-type: none;
+}
+.pieDeContacto ul li a{
+	text-decoration: none;
+}
+
